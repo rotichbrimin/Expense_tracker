@@ -2,7 +2,7 @@ import os
 import sys
 
 from storage import load_data, save_data
-from expenses import add_expense, view_expenses, update_expense, delete, delete_all_expenses
+from expenses import add_expense, view_expenses, update_expense, delete, clear_storage
 from search import search
 from analytics import total, sort_menu, view_summary
             
@@ -62,7 +62,7 @@ def main():
     elif option == 7:
         view_summary(expenses)
     elif option ==8:
-        delete_all_expenses(expenses)
+        clear_storage(expenses)
     elif option ==9:
         sort_menu(expenses)
     # elif option == 9:
