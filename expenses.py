@@ -2,10 +2,10 @@
 from storage import save_data
 from datetime import datetime
 
-# def clear_storage(expenses):
-#     expenses.clear()
-#     save_data(expenses)
-#     print("All saved data cleared")
+def clear_storage(expenses):
+    expenses.clear()
+    save_data(expenses)
+    print("All saved data cleared")
 
 
 
